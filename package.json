@@ -1,0 +1,29 @@
+{
+  "name": "namaste_react",
+  "version": "1.0.0",
+  "description": "This is my first npm package for react ",
+  "homepage": "https://github.com/naveenmoka/My-React-Journey#readme",
+  "bugs": {
+    "url": "https://github.com/naveenmoka/My-React-Journey/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naveenmoka/My-React-Journey.git"
+  },
+  "license": "ISC",
+  "author": "Naveen Moka",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "browsersList":[
+    "last 2 versions"
+  ]
+}
