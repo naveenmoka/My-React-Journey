@@ -19,3 +19,23 @@
 - HTTPs
 - Tree Shaking - remove unused code
 - Different dev and prod bundles
+
+# Namaste Food App
+/**
+ * Header
+ * -Logo
+ * -NavItems
+ * 
+ * Body
+ *  -Search
+ *  -Restaurents Container
+ *   --Restaurent Card
+ *      -img
+ *      -Name of Restaurent,star Ratings,cuisine,etc
+ *
+ * Footer
+ * -copyrights
+ * -Links
+ * -Address
+ * -Contact
+ */
