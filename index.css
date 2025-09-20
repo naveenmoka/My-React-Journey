@@ -77,3 +77,9 @@
     margin-top: 20px;
     margin-bottom: 0px;
 }
+.user-card{
+    padding: 5px;
+    margin: 5px;
+    border: black solid;
+    border-radius: 2px;
+}
