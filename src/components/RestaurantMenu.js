@@ -9,7 +9,7 @@ const RestaurantMenu = () => {
   const { name, cuisines, costForTwoMessage } =
     restaurantInfo?.data?.cards[2]?.card?.card?.info;
   const { itemCards } =
-    restaurantInfo?.data?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]
+    restaurantInfo?.data?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[3]
       ?.card?.card;
   console.log(itemCards);
   return (
