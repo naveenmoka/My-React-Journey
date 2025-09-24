@@ -19,4 +19,18 @@ const RestaurentCard = (props) => {
   );
 };
 
+//Higher Order Component
+export const withPureVegLable = (RestaurentCard) => {
+  return (props) => {
+    return (
+      <div>
+        <label className="absolute bg-black text-white m-2 p-2 rounded-lg">
+          Pure Veg
+        </label>
+        <RestaurentCard {...props} />
+      </div>
+    );
+  };
+};
+
 export default RestaurentCard;
