@@ -1,4 +1,4 @@
-# Food - A Food Delivery Application
+# FoodVilla - A Food Delivery Application
 
 FoodVilla is a modern, single-page food delivery application built with React. It showcases a clean user interface for browsing restaurants, viewing menus, and managing a food cart, all powered by live data from Swiggy's public API. This project is a demonstration of core and advanced React concepts, including state management, routing, performance optimization, and testing.
 
@@ -34,7 +34,7 @@ This project is built with a modern and powerful tech stack to create a fast, sc
 
 ---
 
-## Future Enhancements 🚀
+## Future Enhancements 
 
 This project provides a solid foundation that can be extended with several advanced features to become a full-fledged application.
 
@@ -45,10 +45,6 @@ This project provides a solid foundation that can be extended with several advan
 - **Advanced Filtering & Sorting:** Add more sophisticated options to filter restaurants by cuisine, price, delivery time, and other criteria.
 - **End-to-End Testing:** Incorporate end-to-end tests using a framework like Cypress to automate and verify complete user flows.
 - **Offline Support:** Implement Progressive Web App (PWA) features using service workers to provide a better experience with limited or no internet connectivity.
-
----
-
-Here is an enhanced, professional structure for your project's README file, based on the outline you provided.
 
 ---
 
