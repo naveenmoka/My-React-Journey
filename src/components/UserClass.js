@@ -6,7 +6,6 @@ class UserClass extends React.Component {
       userInfo: {
         name: "naveen",
         location: "Amalapuram",
-        avatar_url: "https/dummu/url",
       },
     };
   }
@@ -22,9 +21,8 @@ class UserClass extends React.Component {
     const { name, location, avatar_url } = this.state.userInfo;
     return (
       <div className="user-card">
-        <img src={avatar_url} />
-        <h2>Name : {name}</h2>
-        <h2>Location : {location}</h2>
+        <h2>Name :Moka Naveen</h2>
+        <h2>Location : Amalapuram, Andhra Pradesh</h2>
         <h3>College : RGUKT-SRIKAKULAM</h3>
       </div>
     );
