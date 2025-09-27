@@ -18,10 +18,10 @@ const Body = () => {
 
     const json = await data.json();
     setListofRestaurents(
-      json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants
+      json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants
     );
     setFilterRestaurants(
-      json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants
+      json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants
     );
   };
 
@@ -31,7 +31,7 @@ const Body = () => {
   //     <h1>Looks like you're offline!! Please check your internet connection</h1>
   //   );
 
-  return ListofRestaurents.length === 0 ? (
+  return (ListofRestaurents?.length ?? 0) === 0 ? (
     <Shimmer />
   ) : (
     <div className="body">
@@ -39,6 +39,7 @@ const Body = () => {
         <div className=" m-4 p-4 ">
           <input
             type="text"
+            data-testid="searchInput"
             className="border border-solid border-black"
             value={searchText}
             onChange={(e) => {
